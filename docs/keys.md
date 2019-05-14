@@ -87,7 +87,7 @@ Enter passphrase:
 Account deleted.
 ```
 
-问题： delete 虽然提示成功，但list里还有，并且 update name也是成功的，keys目录下对应的文件确实已经删除。
+问题： delete 虽然提示成功，但马上list里还有，并且 update name也是成功的，keys目录下对应的文件确实已经删除。过一段时间list里就没有了。
 
 #### Update Keys ####
 Update the password:
