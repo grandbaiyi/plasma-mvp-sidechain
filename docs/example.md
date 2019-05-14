@@ -98,7 +98,7 @@ First argument is address being sent to, followed by amounts to send (first outp
 Position flag of inputs to be spent must be specified. 
 
 ```
- plasmacli spend 0x5475b99e01ac3bb08b24fd754e2868dbb829bc3a 1000,0 acc1 --position "(0.0.0.1)"
+ plasmacli spend  acc1 1000 0x5475b99e01ac3bb08b24fd754e2868dbb829bc3a --position "(0.0.0.1)"
 ```
 
 The above address being sent to corresponds to acc2
