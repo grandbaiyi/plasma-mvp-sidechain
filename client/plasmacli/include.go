@@ -80,7 +80,7 @@ var includeCmd = &cobra.Command{
 				return err
 			}
 		} else {
-			res, err := ctx.BroadcastTxAndAwaitCommit(txBytes)
+			res, err := ctx.BroadcastTxCommit(txBytes)
 			if err != nil {
 				return err
 			}
